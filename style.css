@@ -1,0 +1,1130 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+  }
+  html { overflow-x: hidden ; height: 101%; } /* always display scrollbars */
+  body { font-family: FuturaNo2D,Century Gothic,AppleGothic,sans-serif; overflow-x: hidden ; overflow-y: hidden; font-size: 62.5%; line-height: 1; font-family: Arial, Tahoma, Verdana, sans-serif; }
+  
+  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+  ol, ul { list-style: none; }
+  
+  blockquote, q { quotes: none; }
+  blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+  strong { font-weight: bold; } 
+  
+  input { outline: none; }
+  
+  table { border-collapse: collapse; border-spacing: 0; }
+  img { border: 0; max-width: 100%; }
+  
+  a { text-decoration: none; }
+  a:hover { text-decoration: underline; }
+
+  /*main-menu*/
+  .main-menu {
+    background-color: rgb(27, 27, 27);
+    max-width: 1920px !important;
+    height: 40px;
+  
+  
+  }
+  .blizzard-icon {
+    height: 30px;  
+    margin-top: 5px ;  
+  }
+  .main-navigation {
+  
+    line-height: 40px;
+  }
+  .main-navigation li {
+      display: inline-block;
+  
+  }
+  .main-navigation li a {
+    text-decoration: none;
+    color: rgb(219, 219, 219); font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-right: 15px;
+  }
+  .main-navigation li a:hover {
+    color: rgb(255, 255, 255);
+  }
+  /*span elements*/
+  .high-arrow {
+    fill: rgb(219, 219, 219);
+    width: 20px;
+    margin-left: 6px ;
+  }
+  .high-arrow:hover {
+    fill: rgb(255, 255, 255);
+  }
+  /*preview*/
+  
+  .video {
+    top: 50%;
+    width: 101%;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    position: absolute;
+    z-index: -2;
+  }
+  /*overwatch menu*/
+  .overwatch-menu {
+    background-color:rgb(219, 219, 219) ;
+    margin-top: 40px;
+    height: 50px;
+    max-width: 97% !important;
+  }
+  .overwatch-menu .col-1 {
+    padding-left: 0px;
+    
+  }
+  .svg-icon {
+    width: 50px;
+    padding: 2px 4px;
+    height: 50px;
+    position: relative;
+    
+    background-color: rgb(61, 61, 61);
+  }
+  .svg-icon:hover {
+    background-color: rgb(75, 75, 75);
+  }
+  svg {
+    height: 100%;
+    
+  }
+  .overwatch-list {
+    margin-top: 15px;
+    font-size: 0;
+    float: left;
+    margin: 0px;
+    padding-left: 0px;
+  }
+  .overwatch-list li {
+    display: inline-block;
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: rgb(61, 61, 61) ;
+    height: 50px;
+  }
+  .overwatch-list li:last-child {
+    border-right: none;
+  }
+  .overwatch-list li a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    padding-left: 20px;
+    color: rgb(61, 61, 61);
+    padding-right: 20px;
+    line-height: 50px;
+    transition: 0.3s;
+  }
+  .overwatch-list li a:hover {
+    color: rgb(226, 109, 0);
+    border-bottom: 3px solid rgb(226, 109, 0);
+    transform: translateY(1px);
+  }
+  .arrow {
+    width: 20px;
+    margin-left: 6px ;
+    fill: rgb(61,61,61);
+  }
+  .arrow:hover {
+    fill: rgb(226, 109, 0);
+    transform: translateY(1px);
+    
+  }
+  .preview .col-3 {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .login {
+    margin-top: 15px;
+    font-size: 0;
+    float: left;
+    margin: 0px;
+    padding-left: 0px;
+  }
+  .login .autorization {
+    display: inline-block;
+    padding-bottom: 12px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    height: 50px;
+    padding-left: 38.4px;
+  }
+  .login .buy {
+    display: inline-block;
+    padding-bottom: 12px;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    height: 50px;
+    background-color: rgb(226, 109, 0);
+  }
+  .login .autorization a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    padding-left: 20px;
+    color: rgb(61, 61, 61);
+    padding-right: 20px;
+    line-height: 50px;
+    transition: 0.3s;
+  }
+ .login .buy a {
+    text-decoration: none;
+    display: block;
+    height: 50px;
+    padding-left: 16.49px;
+    color: rgb(219, 219, 219);
+    padding-right: 16.47px;
+    line-height: 50px;
+    transition: 0.3s;
+  }
+  /*section news*/
+  .news {
+    background-image: url(img/HT21-Event-HomeBanner-Desktop.jpeg);
+    max-width: 1920px !important;
+    margin-top: 170px;
+    padding-top: 101px;
+    padding-bottom: 61px;
+    clip-path: polygon(0 0,calc(50% - 720px) 0,calc(50% - 710px) 21px,calc(50% + 710px) 21px,calc(50% + 720px) 0,100% 0,100% 100%,0 100%);
+    text-align: right;
+    z-index: 2;
+  }
+  .news .col-4 {
+    padding-right: 50px;
+  }
+  .news h2 {
+    font-size: 64px;
+    line-height: 60px;
+    color: rgb(75, 75, 75);
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 1px;
+  }
+  .news h3 {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .8px;
+    color: #51658e;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .news p {
+    font-size: 18px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+  }
+  .news a {
+    font-style: normal;
+    font-size: 21px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    background-color: rgb(226, 109, 0);
+    width: 200px;
+    height: 44.8px;
+    text-decoration: none;
+    display: inline-block;
+    line-height: 45px;
+    text-align: center;
+  }
+  .news a:hover {
+    background-color: rgb(207, 100, 0);
+    transform: rotate3d(5px);
+    color: rgb(255, 255, 255);
+  }
+/*overwatch logo */
+.Overwatch {
+  text-align: center;
+}
+.HeaderSection-logo {
+  width: 60%;
+  max-width: 900px;
+  min-width: 300px;
+  fill: #fff;
+  margin-top: 2.3%;
+}
+/*Fitst screen buttons */
+.buttons-first {
+  text-align: center;
+  margin-top: 50px;
+}
+.buttons-first a {
+  font-size: 21px;
+  line-height: 21px;
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  min-width: 13em;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .5px;
+  margin-left:  13px;
+  height: 44.8px;
+  line-height: 40px;
+  opacity: 0.8;
+}
+.buttons-first a:first-child {
+  background-color: #007dd1;
+}
+.buttons-first a:last-child {
+  background-color: rgb(226, 109, 0);
+}
+.buttons-first a:hover {
+  opacity: 1;
+  width: 274px;
+  height: 45px;
+  color: rgb(255, 255, 255);
+}
+/*Sponsors photos*/
+.photos {
+  text-align: center;
+}
+.photos svg {
+  fill: rgb(255, 255, 255);
+  height: 3em;
+    width: 10.719em;
+    margin-left: 15px;
+    margin-top: 40px;
+}
+.photos svg:first-child {
+  height: 4em;
+  width: 12.719em;
+  padding-top: 10px;
+}
+/*SALES FOR OVERWATCH - SECTION */
+.sales {
+  background-image: url(img/OctSale-SubBanner-Desktop.jpeg);
+  max-width: 1920px !important;
+  height: 300px;
+  z-index: 2;
+}
+.sales .col-7 {
+  padding-left: 80px;
+  padding-top: 50px;
+}
+.sales h2 {
+  font-size: 24px;
+    line-height: 27px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .8px;
+    color: rgb(75, 75, 75);
+}
+.sales p {
+  font-size: 18px;
+    line-height: 26px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.sales em {
+  font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+.sales a { 
+  display: inline-block;
+  background-color: #007dd1;
+  color: #fff;
+  margin-top: 20px;
+  height: 44.8px;
+  width: 200px;
+  line-height: 45px;
+  text-decoration: none;
+  text-align: center;
+  font-size: 21px;
+  font-style: normal;
+    font-weight: 700;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.sales a:hover {
+  width: 205px;
+  height: 47.8px;
+  color: #fff;
+  background-color: rgb(0, 97, 207);
+  
+}
+/* section with all overwatch news */ 
+.blog {
+  max-width: 1920px !important;
+  background-image: url(img/tracey.jpg);
+ 
+ background-repeat: no-repeat;
+}
+.blog .row {
+  margin-left: 100px;
+}
+.recommendation1 {
+  margin-top: 100px;
+}
+.recommendation1 h2 {
+  font-size: 21px;
+  line-height: 25px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .8px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.recommendation1 span {
+  display: inline-block;
+  margin: 0 10px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .8px;
+  font-size: 21px;
+  line-height: 25px;
+}
+.recommendation1 a {
+  display: inline-block;
+  text-decoration: none;
+  color: rgb(226, 109, 0);
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: .8px;
+  font-size: 21px;
+  line-height: 25px;
+}
+.recommendation1 a svg {
+  fill: rgb(226, 109, 0);
+  width: 1em;
+  height: 1em;
+  transform: rotate(-90deg);
+}
+.recommendation1 a:hover {
+  opacity: 0.5;
+  color: rgb(226, 109, 0);
+}
+.recommendation1 a svg:hover {
+  opacity: 0.5;
+}
+/*section with posts*/
+.post1 {
+  width: 338px;
+  
+  display: inline-block;
+  margin-top: 20px;
+  border: 0.5px solid rgb(75, 75, 75);
+}
+
+.post1 h3 {
+  font-size: 18px;
+  line-height: 22px;
+  font-style: normal;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: rgb(75, 75, 75);
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-top: 0.5px solid rgb(75, 75, 75);
+}
+.post1 h4 {
+  font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: rgb(75, 75, 75);
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.post2 {
+  display: inline-block;
+  width: 338px;
+  height: 306.43px;
+  margin-left: 10px;
+  position: relative;
+  bottom: px;
+  border: 0.5px solid rgb(75, 75, 75);
+}
+.post2 img {
+  width: 336.4px;
+  height: 189.23px;
+
+}
+.post2 h3 {
+  font-size: 18px;
+  line-height: 22px;
+  font-style: normal;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: rgb(75, 75, 75);
+  padding-top: 10px;
+  border-top: 0.5px solid rgb(75, 75, 75);
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.post2 h4 {
+  font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: rgb(75, 75, 75);
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+.post3 {
+  display: inline-block;
+  width: 338px;
+  height: 306.43px;
+  margin-top: 10px;
+  position: relative;
+  bottom: 20px;
+  border: 0.5px solid rgb(75, 75, 75);
+}
+.post3 img {
+  width: 336.4px;
+  height: 189.23px;
+}
+.post3 h3 {
+  font-size: 18px;
+  line-height: 22px;
+  font-style: normal;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: rgb(75, 75, 75);
+  padding-top: 10px;
+  border-top: 0.5px solid rgb(75, 75, 75);
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.post3 h4 {
+  font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: rgb(75, 75, 75);
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.post4 {
+  display: inline-block;
+  width: 338px;
+  height: 306.43px;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: relative;
+  top: 20px;
+  border: 0.5px solid rgb(75, 75, 75);
+}
+.post4 img {
+  width: 336.4px;
+  height: 189.23px;
+}
+.post4 h3 {
+  font-size: 18px;
+  line-height: 22px;
+  font-style: normal;
+  letter-spacing: 0;
+  font-weight: 700;
+  color: rgb(75, 75, 75);
+  padding-top: 10px;
+  border-top: 0.5px solid rgb(75, 75, 75);
+  padding-left: 20px;
+  padding-right: 20px;
+
+}
+.post4 h4 {
+  font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: rgb(75, 75, 75);
+    padding-left: 20px;
+    padding-right: 20px;
+  
+}
+/*SMALL SECTION FOR OVERWATCH 2*/
+.ow2 {
+  position: relative;
+  margin-right: 50px;
+  top: 300px;
+}
+.ow2 img {
+  height: 150px;
+  vertical-align: middle;
+}
+.ow2 h3 {
+  font-size: 18px;
+    line-height: 21px;
+    font-family: Config,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding-left: 45px;
+    padding-bottom: 20px;
+  display: block;
+}
+.ow2 a {
+  display: block;
+  font-size: 21px;
+    line-height: 25px;
+    padding: 12px 20px;
+    border-radius: 2px;
+    background: none;
+    z-index: 1;
+    color: #fff;
+    border: none;
+    background-color: black;
+    text-decoration: none;
+    text-align: center;
+    font-family: Config,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-transform: uppercase;
+    font-weight: 700;
+    width: 200px;
+    margin-top: 20px;
+    margin-left: 20px;
+    opacity: 0.9;
+}
+.ow2 a:hover {
+  color: #fff;
+  opacity: 1;
+  transform: scale(1.01,1.01);
+}
+/*SECTION WITH OVERWATCH HEROES AND TEXT*/
+.heroes {
+  max-width: 1920px !important;
+  background-image: url(img/fourth_section.jpg);
+  padding-top: 72px;
+  background-repeat: no-repeat;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
+}
+.heroes h2 {
+  font-size: 48px;
+    line-height: 40px;
+    font-family: impact,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(61,61,61);
+    text-align: center;
+}
+.heroes h3 {
+  font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    font-size: 21px;
+    line-height: 30px;
+    color: rgb(27, 27, 27);
+   text-align: center;
+   margin-top: 25px;
+}
+/*SECTION WITH PRESENTATION OF EACH HERO */
+.presentation {
+  background-image: -webkit-gradient(linear,left top,right top,from(rgba(64,82,117,0)),color-stop(25%,rgba(64,82,117,.8)),color-stop(75%,rgba(64,82,117,.8)),to(rgba(64,82,117,0)));
+  background-image: linear-gradient(
+90deg,rgba(64,82,117,0) 0,rgba(64,82,117,.8) 25%,rgba(64,82,117,.8) 75%,rgba(64,82,117,0));
+    background-position: 50%;
+    background-size: 100% 200px;
+    background-repeat: no-repeat;
+    
+}
+.presentation img {
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: 440px;
+  float: right;
+}
+.presentation h3 {
+  text-align: center;
+  margin-top: 150px;
+  font-size: 54px;
+  line-height: 50px;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: rgb(255,255,255);
+  margin-right: 60px;
+
+}
+.presentation h4 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: rgb(255,255,255);
+  margin-right: 100px;
+}
+/*SECTION WITH HEROES SMALL PORTRAITS */
+.dopclass {
+  background-image: url(img/heroes/D.VA-portrait.png);
+}
+.dopclass1 {
+  background-image: url(img/heroes/ana-portrait.png);
+}
+.dopclass2 {
+  background-image: url(img/heroes/angel-portrait.png);
+}
+.dopclass3 {
+  background-image: url(img/heroes/bastion-portrait.png);
+}
+.dopclass4 {
+  background-image: url(img/heroes/batist-portrait.png);
+}
+.dopclass5 {
+  background-image: url(img/heroes/briggita-portrait.png);
+}
+.dopclass6 {
+  background-image: url(img/heroes/gendzi-portrait.png);
+}
+.dopclass7 {
+  background-image: url(img/heroes/dzine-portrait.png);
+}
+.dopclass8 {
+  background-image: url(img/heroes/ripper-portrait.png);
+}
+.dopclass9 {
+  background-image: url(img/heroes/zarya-portrait.png);
+}
+.dopclass10 {
+  background-image: url(img/heroes/rat-portrait.png);
+}
+.dopclass11 {
+  background-image: url(img/heroes/deathfist-portrait.png);
+}
+.dopclass12 {
+  background-image: url(img/heroes/kessedi-portrait.png);
+}
+.dopclass13 {
+  background-image: url(img/heroes/lucio-portrait.png);
+}
+.dopclass14 {
+  background-image: url(img/heroes/moira-portrait.png);
+}
+.dopclass15 {
+  background-image: url(img/heroes/mei-portrait.png);
+}
+.dopclass16 {
+  background-image: url(img/heroes/orica-portrait.png);
+}
+.dopclass17 {
+  background-image: url(img/heroes/xardt-portrait.png);
+}
+.dopclass18 {
+  background-image: url(img/heroes/vdova-portrait.png);
+}
+.dopclass19 {
+  background-image: url(img/heroes/sigma-portrait.png);
+}
+.dopclass20 {
+  background-image: url(img/heroes/simmetrra-portrait.png);
+}
+.dopclass21 {
+  background-image: url(img/heroes/soldier-portrait.png);
+}
+.dopclass22 {
+  background-image: url(img/heroes/sombra-portrait.png);
+}
+.dopclass23 {
+  background-image: url(img/heroes/taran-portrait.png);
+}
+.dopclass24 {
+  background-image: url(img/heroes/tor-portrait.png);
+}
+.dopclass25 {
+  background-image: url(img/heroes/tracer-portrait.png);
+}
+.dopclass26 {
+  background-image: url(img/heroes/svin-portrait.png);
+}
+.dopclass27 {
+  background-image: url(img/heroes/yinston-portrait.png);
+}
+.dopclass28 {
+  background-image: url(img/heroes/farra-portrait.png);
+}
+.dopclass29 {
+  background-image: url(img/heroes/[fylpj-portrait.png);
+}
+.dopclass30 {
+  background-image: url(img/heroes/exo-portrait.png);
+}
+.dopclass31 {
+  background-image: url(img/heroes/esh-portrait.png);
+}
+.portrait-container {
+  max-width: 1200px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.portrait-container1 {
+  max-width: 606.9px;
+  text-align: center;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.portrait-container .col {
+  padding-left: 0px;
+  padding-right: 0px;
+  height: 105px;
+}
+.unique {
+  width: 86.15px !important;
+  padding-bottom: 50px;
+}
+/*HOVER FUNCTION FOR HEROES PORTRAITS */
+.portrait-container a:hover .wrapper-portrait-image {
+  transform: skew(25rad) scale(1.3);
+  background-color: #ff9c00;
+}
+.portrait-container a:hover .person-name {
+  transition: background-color 0s ease-out;
+    background-color: #f6f6f6;
+}
+.portrait-container1 a:hover .wrapper-portrait-image {
+  transform: skew(25rad) scale(1.3);
+  background-color: #ff9c00;
+}
+.portrait-container1 a:hover .person-name {
+  transition: background-color 0s ease-out;
+    background-color: #f6f6f6;
+} 
+.wrapper-portrait-image {
+  display: inline-block;
+    position: relative;
+    width: 76px;
+    height: 84px;
+    border: 3px solid #f6f6f6;
+    background-color: rgba(51,51,51,.9);
+    background-clip: padding-box;
+    overflow: hidden;
+    border-radius: 7px;
+    -webkit-transform: skew(
+25rad);
+    transform: skew(
+25rad);
+}
+.portrait-image {
+  display: block;
+    width: calc(100% + 10px);
+    height: 100%;
+    background-size: auto 100%;
+    background-position: 50% 50%;
+    position: relative;
+    -webkit-transform: skew(
+-25rad) translateX(-5px);
+    transform: skew(
+-25rad) translateX(-5px);
+}
+.person-name {
+  display: inline-block;
+  position: relative;
+  bottom: 10px;
+  font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #212529;
+    padding: .25em .5em;
+    margin-left: -17%;
+    border-radius: .3em;
+    font-size: 12px;
+    line-height: 1.25em;
+    text-decoration: none;
+    padding-bottom: 10px;
+    transition: background-color .15s ease-in;
+    word-break: keep-all;
+}
+/*SMALL SECTION WITH SUGGESTION OF PURCHASE OVERWATCH */
+.purchase {
+  background-image: url(img/purchase-section.jpeg);
+  max-width: 1920px !important;
+  border-top: 0.5px solid rgba(155,157,162,.25);
+}
+.purchase .col-12 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+.purchase img {
+  margin-left: 400px;
+  padding: 20px;
+    max-width: 320px;
+}
+.purchase h3 {
+  font-size: 42px;
+  line-height: 60px;
+  font-family: Big Noodle Too,impact,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: italic;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: rgb(61, 61, 61);
+    display: inline-block;
+  margin-top: 35px;
+}
+.purchase h4 {
+  font-family: Roboto,Helvetica Neue,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(61, 61, 61);
+    display: inline-block;
+}
+.purchase a {
+    display: inline-block;
+    font-size: 21px;
+      line-height: 25px;
+      padding: 12px 20px;
+      border-radius: 2px;
+      background: none;
+      z-index: 1;
+      color: #fff;
+      border: none;
+      background-color:rgb(226, 109, 0);
+      text-decoration: none;
+      text-align: center;
+      font-family: Config,sans-serif;
+      -webkit-font-smoothing: antialiased;
+      text-transform: uppercase;
+      font-weight: 700;
+      width: 200px;
+    margin-top: 10px;
+      opacity: 0.9;
+}
+  .purchase a:hover {
+    color: #fff;
+    opacity: 1;
+    transform: scale(1.01,1.01);
+}
+/*SECTION WITH SOCIAL NETWORKS */
+.social {
+  background-image: url(img/CARBON.jpg);
+  max-width: 1920px !important;
+}
+.social h3 {
+  margin-top: 20px;
+    font-family: Big Noodle Too,impact,sans-serif;
+    font-style: italic;
+    color: #f6f6f6;
+    letter-spacing: .05rem;
+    font-size: 25px;
+}
+.social ul {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  padding-left: 0px;
+}
+.social li {
+  position: relative;
+  width: 54px;
+  height: 54px;
+  display: inline-block;
+  margin-left: 15px;
+}
+.second-li::before {
+  content: "\2022";
+    position: absolute;
+    top: 50%;
+    left: -13px;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: .5;
+    color: rgb(117, 117, 117)
+}
+.social svg {
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  width: 60%;
+  height: 60%;
+  fill: rgb(110, 110, 110);
+  position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.social a:after, .social a:before {
+  content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-style: solid;
+    border-radius: 50%;
+}
+.social a:after {
+  border-color: hsla(0,0%,100%,.9);
+    border-width: 1px;
+    width: 100%;
+    height: 100%;
+}
+.social a:before {
+  border-color: rgba(255, 255, 255, 0.959);
+    border-width: 2px;
+    width: 75%;
+    height: 75%;
+}
+.social a:hover {
+  fill: rgb(140,140,140);
+  border-color: rgba(255, 255, 255, 0.959);
+}
+.social svg:hover {
+  fill: rgb(140,140,140);
+
+}
+/*SECTION FOR FOOTER*/
+.footer {
+  background-color: #f0edf2;
+  max-width: 1920px !important;
+}
+.logo-footer-upper {
+  display: block;
+    position: relative;
+    width: 124px;
+    height: 66px;
+    margin: 0 auto;
+    fill: #00aeff;
+    margin-top: 40px;
+}
+.logo-footer-lower {
+  display: block;
+ position: relative;
+  width: 124px;
+  margin: 0 auto;
+  height: 66px;
+  bottom: 60px;
+}
+.first-ul {
+  display: block;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  margin-right: 50px;
+}
+.first-ul li {
+  display: inline-block;
+}
+.first-ul .special:before {
+  content: "";
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color: rgba(0,0,0,.3);
+    margin-left: 10px;
+    margin-right: 15px;
+    pointer-events: none;
+}
+.first-ul a {
+  font-size: 17px;
+  text-decoration: none;
+  color: rgba(0,0,0,.7);
+}
+.first-ul a:hover {
+  color: rgba(0, 0,0,1);
+}
+.footer h4 {
+  text-align: center;
+  color: rgba(0,0,0,.7);
+  font-size: 16px;
+}
+.footer h4 svg {
+  width: 24px;
+  height: 24px;
+  fill: #00aeff;
+}
+.footer h4 a {
+  color: rgb(0, 116, 224);
+  font-size: 16px;
+  text-decoration: none;
+}
+.footer h5 {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 2px;
+}
+.first-h5 {
+  margin-top: 40px;
+  font-size: 13px;
+  color: rgba(0, 0, 0, 0.8);
+}
+.footer h5 a {
+  color: #ff8900;
+  text-decoration: none;
+}
+.footer h5 a:hover {
+  color: #ffb033;
+}
+.second-ul {
+  display: block;
+  text-align: center;
+}
+.second-ul li {
+  display: inline-block;
+}
+.second-ul li a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 13px;
+}
+.second-ul li a:hover {
+  color: rgba(0, 0, 0, 1);
+}
+.second-ul .special2:before {
+  content: "";
+    display: inline-block;
+    height: 10px;
+    width: 1px;
+    background-color: rgba(0,0,0,.3);
+    margin-left: 10px;
+    margin-right: 15px;
+    pointer-events: none;
+}
+.last-img {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 60px;
+}
+.active {
+  border: 3px solid #222;
+  opacity: 0.5;
+}
